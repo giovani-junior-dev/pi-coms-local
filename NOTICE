@@ -1,0 +1,11 @@
+This package is based on the Pi-to-Pi local communication extension from:
+https://github.com/disler/pi-vs-claude-code
+
+Original project: pi-vs-claude-code by disler
+Original license: MIT
+Reference section: Pi-to-Pi Agent-to-Agent Communication
+
+Local adaptations in this package:
+- Imports updated for current Pi package names: @earendil-works/*
+- Minimal themeMap shim included so the coms extension can run as a standalone package
+- Added prompt templates and skill documentation for planner/coder bidirectional workflows

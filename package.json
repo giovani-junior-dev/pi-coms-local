@@ -1,0 +1,61 @@
+{
+  "name": "@giovani-junior-dev/pi-coms-local",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Pi-to-Pi local bidirectional communication: run peer Pi agents that can message each other on the same machine.",
+  "author": "Giovani Junior",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "agents",
+    "multi-agent",
+    "agent-to-agent",
+    "bidirectional",
+    "coms"
+  ],
+  "homepage": "https://github.com/giovani-junior-dev/pi-coms-local#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giovani-junior-dev/pi-coms-local.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giovani-junior-dev/pi-coms-local/issues"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/coms.ts"
+    ],
+    "skills": [
+      "./skills"
+    ],
+    "prompts": [
+      "./prompts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  },
+  "files": [
+    "extensions",
+    "skills",
+    "prompts",
+    "README.md",
+    "PUBLISHING.md",
+    "LICENSE",
+    "NOTICE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "pack:check": "npm pack --dry-run",
+    "release:pack": "npm pack"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
