@@ -10,6 +10,14 @@ planner ⇄ coder
 
 This package is based on the Pi-to-Pi communication work from [`disler/pi-vs-claude-code`](https://github.com/disler/pi-vs-claude-code#pi-to-pi-agent-to-agent-communication), adapted for current `@earendil-works/*` Pi package imports.
 
+## Learn more
+
+If you want to understand the original idea, motivation, trade-offs, and examples behind Pi-to-Pi bidirectional agent communication, read the source article/section:
+
+- [Pi-to-Pi Agent-to-Agent Communication — disler/pi-vs-claude-code](https://github.com/disler/pi-vs-claude-code#pi-to-pi-agent-to-agent-communication)
+
+That article explains why peer-to-peer agent communication is different from subagents, agent chains, or one-way orchestration, and shows the original `coms` / `coms-net` patterns this package is based on.
+
 ## What it installs
 
 - Extension: `extensions/coms.ts`

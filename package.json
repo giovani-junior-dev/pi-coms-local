@@ -1,6 +1,6 @@
 {
   "name": "@giovani-junior-dev/pi-coms-local",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Pi-to-Pi local bidirectional communication: run peer Pi agents that can message each other on the same machine.",
   "author": "Giovani Junior",
