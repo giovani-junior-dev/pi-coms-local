@@ -1,4 +1,4 @@
-# @giovani-junior-dev/pi-coms-local
+# @script7sistema/pi-coms-local
 
 Pi package for **local Pi-to-Pi bidirectional agent communication**.
 
@@ -123,13 +123,13 @@ See [`PUBLISHING.md`](./PUBLISHING.md).
 ## Install from npm after publishing
 
 ```bash
-pi install npm:@giovani-junior-dev/pi-coms-local
+pi install npm:@script7sistema/pi-coms-local
 ```
 
 Temporary run:
 
 ```bash
-pi -e npm:@giovani-junior-dev/pi-coms-local --name planner --project my-project
+pi -e npm:@script7sistema/pi-coms-local --name planner --project my-project
 ```
 
 ## Install from GitHub after publishing

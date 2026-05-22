@@ -21,7 +21,7 @@ This package already includes the important metadata:
 Recommended if publishing under a personal scope:
 
 ```json
-"name": "@giovani-junior-dev/pi-coms-local"
+"name": "@script7sistema/pi-coms-local"
 ```
 
 2. Login to npm:
@@ -45,13 +45,13 @@ npm publish --access public
 5. Test install from Pi:
 
 ```bash
-pi install npm:@giovani-junior-dev/pi-coms-local
+pi install npm:@script7sistema/pi-coms-local
 ```
 
 or temporary run:
 
 ```bash
-pi -e npm:@giovani-junior-dev/pi-coms-local --name planner --project test
+pi -e npm:@script7sistema/pi-coms-local --name planner --project test
 ```
 
 6. Gallery visibility:
